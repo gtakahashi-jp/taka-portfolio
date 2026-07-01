@@ -1,34 +1,34 @@
-# Dependencies
-node_modules/
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Build output
-dist/
-dist-ssr/
+node_modules
+dist
+dist-ssr
 *.local
 
-# Environment / secrets â€” never commit
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment / secrets — never commit
 .env
 .env.*
 
 # Vercel
 .vercel
 
-# Vite cache
-node_modules/.vite
-
-# Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-pnpm-debug.log*
-
-# Editor / OS
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# --- Private, local-only working material â€” NEVER committed ---
-# Real PDFs, real Excel files, real client/company names, real ZIPs, scratch notes.
-# Git refuses to track anything in here. This is your safe zone.
+# Private, local-only — NEVER committed
 _private/
